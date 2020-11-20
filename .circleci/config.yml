@@ -7,6 +7,6 @@ jobs:
       - run:
           name: Start baking PBRP! =)
           command: |
-            apt-get -y update && apt-get -y upgrade && apt-get -y install wget git && wget https://raw.githubusercontent.com/Live0verfl0w/android_device_samsung_dreamlte/android-9.0/circle.sh && bash circle.sh 
+            apt-get -y update && apt-get -y upgrade && apt-get -y install wget git && wget https://raw.githubusercontent.com/Live0verfl0w/pbrp_device_samsung_dreamlte/android-9.0/circle.sh && bash circle.sh 
       - store_artifacts:
           path: ~/output/

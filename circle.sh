@@ -2,7 +2,7 @@
 # coded by bruh™ aka Live0verfl0w
 
 MANIFEST_LINK=git://github.com/PitchBlackRecoveryProject/manifest_pb.git
-BRANCH=android-9.0
+BRANCH=android-8.1
 DEVICE_CODENAME=dreamlte
 GITHUB_USER=Live0verfl0w
 GITHUB_EMAIL=vsht700@gmail.com

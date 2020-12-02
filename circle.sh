@@ -60,7 +60,9 @@ git clone -b lineage-16.0 https://github.com/LineageOS/android_hardware_samsung.
 # Start building!
 echo ""
 echo "Starting build!"
-export ALLOW_MISSING_DEPENDENCIES=true && . build/envsetup.sh && lunch omni_${DEVICE_CODENAME}-eng && mka recoveryimage -j${JOBS}
+export ALLOW_MISSING_DEPENDENCIES=true
+export ARCH=arm64
+. build/envsetup.sh && lunch omni_${DEVICE_CODENAME}-eng && mka recoveryimage -j${JOBS}
 
 # copy final product to another folder
 echo ""

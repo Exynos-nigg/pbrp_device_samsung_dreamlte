@@ -42,7 +42,7 @@ mkdir ${WORK_DIR} && cd ${WORK_DIR}
 echo ""
 echo "Syncing rom repo!"
 repo init -u ${MANIFEST_LINK} -b ${BRANCH}
-repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j${JOBS}
+repo sync -j${JOBS}
 
 # clone device sources
 echo ""

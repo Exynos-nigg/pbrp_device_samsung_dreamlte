@@ -70,3 +70,4 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/dreamlte/include
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 55234496
 PB_TORCH_PATH := "/sys/class/leds/torch-sec1"
 PB_DISABLE_DEFAULT_DM_VERITY := true
+MAINTAINER := "bruh™ @Exynos-nigg"
